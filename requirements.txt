@@ -1,4 +1,4 @@
-# HIG-Osint Requirements
+# HIG-Osint Requirements (Düzeltilmiş)
 # Halil Gercek - higeryazilim@gmail.com
 # https://github.com/Higer23/HIG-Osint
 
@@ -13,47 +13,49 @@ phonenumbers>=8.13.0
 googlesearch-python>=1.2.3
 python-whois>=0.8.0
 dnspython>=2.4.0
-shodan>=1.31.0
-censys>=2.2.0
+
+# NOT: Shodan ve Censys API key gerektirir, opsiyonel
+# shodan>=1.31.0
+# censys>=2.2.0
 
 # Social Media
 tweepy>=4.14.0
 instaloader>=4.10.0
-tiktok-scraper>=1.0.0
-facebook-scraper>=0.2.59
+# tiktok-scraper>=1.0.0  # Genelde sorunlu
+# facebook-scraper>=0.2.59  # API değişiklikleri nedeniyle sorunlu olabilir
 
 # Image & Media
 Pillow>=10.0.0
 piexif>=1.1.3
-opencv-python>=4.8.0
-pytesseract>=0.3.10
+# opencv-python>=4.8.0  # Termux'ta sorunlu, gerekirse açın
+# pytesseract>=0.3.10  # OCR için tesseract kurulumu gerekir
 
 # Network & Security
 scapy>=2.5.0
-ping3>=4.0.0
-nmap>=0.0.1
+# ping3>=4.0.0  # Root erişimi gerektirebilir
+# nmap>=0.0.1  # Sistem nmap'i kullanmak daha iyi
 netaddr>=0.9.0
 
-# Web & API
-Flask>=3.0.0
-flask-cors>=4.0.0
-selenium>=4.15.0
-playwright>=1.40.0
+# Web & API - Opsiyonel (ağır paketler)
+# Flask>=3.0.0
+# flask-cors>=4.0.0
+# selenium>=4.15.0
+# playwright>=1.40.0
 
 # Data Processing
 pandas>=2.1.0
 numpy>=1.26.0
 openpyxl>=3.1.0
-pdfplumber>=0.10.0
+# pdfplumber>=0.10.0  # Opsiyonel
 
 # Cryptography & Encoding
 cryptography>=41.0.0
-hashlib>=20081119
-base64>=0.1.0
+# hashlib - Python'da yerleşik, kaldırıldı
+# base64 - Python'da yerleşik, kaldırıldı
 
-# Database
-sqlalchemy>=2.0.0
-pymongo>=4.5.0
+# Database - Opsiyonel
+# sqlalchemy>=2.0.0
+# pymongo>=4.5.0
 
 # Utilities
 tqdm>=4.66.0
@@ -62,7 +64,7 @@ pytz>=2023.3
 click>=8.1.7
 
 # Email
-validate-email>=1.3
+# validate-email>=1.3  # Eski paket, sorunlu olabilir
 email-validator>=2.1.0
 
 # Phone
@@ -70,12 +72,12 @@ phonenumberslite>=8.13.0
 
 # IP & Location
 ipwhois>=1.2.0
-geoip2>=4.7.0
+# geoip2>=4.7.0  # MaxMind database gerektirir
 geocoder>=1.38.1
 
-# Hash Cracking
-hashid>=3.1.4
-hashcat-utils>=1.9
+# Hash Cracking - Opsiyonel
+# hashid>=3.1.4
+# hashcat-utils>=1.9  # Genelde sorunlu
 
 # PDF
 PyPDF2>=3.0.0
@@ -83,11 +85,11 @@ reportlab>=4.0.0
 
 # QR Code
 qrcode>=7.4.2
-pyzbar>=0.1.9
+# pyzbar>=0.1.9  # Sistem kütüphanesi gerektirir
 
 # Additional
 fake-useragent>=1.4.0
 stem>=1.8.2
 pysocks>=1.7.1
 aiohttp>=3.9.0
-asyncio>=3.4.3
+# asyncio - Python 3.4+'da yerleşik, kaldırıldı
