@@ -1,0 +1,93 @@
+# HIG-Osint Requirements
+# Halil Gercek - higeryazilim@gmail.com
+# https://github.com/Higer23/HIG-Osint
+
+# Core Dependencies
+requests>=2.31.0
+beautifulsoup4>=4.12.0
+colorama>=0.4.6
+urllib3>=2.0.0
+
+# OSINT Tools
+phonenumbers>=8.13.0
+googlesearch-python>=1.2.3
+python-whois>=0.8.0
+dnspython>=2.4.0
+shodan>=1.31.0
+censys>=2.2.0
+
+# Social Media
+tweepy>=4.14.0
+instaloader>=4.10.0
+tiktok-scraper>=1.0.0
+facebook-scraper>=0.2.59
+
+# Image & Media
+Pillow>=10.0.0
+piexif>=1.1.3
+opencv-python>=4.8.0
+pytesseract>=0.3.10
+
+# Network & Security
+scapy>=2.5.0
+ping3>=4.0.0
+nmap>=0.0.1
+netaddr>=0.9.0
+
+# Web & API
+Flask>=3.0.0
+flask-cors>=4.0.0
+selenium>=4.15.0
+playwright>=1.40.0
+
+# Data Processing
+pandas>=2.1.0
+numpy>=1.26.0
+openpyxl>=3.1.0
+pdfplumber>=0.10.0
+
+# Cryptography & Encoding
+cryptography>=41.0.0
+hashlib>=20081119
+base64>=0.1.0
+
+# Database
+sqlalchemy>=2.0.0
+pymongo>=4.5.0
+
+# Utilities
+tqdm>=4.66.0
+python-dateutil>=2.8.2
+pytz>=2023.3
+click>=8.1.7
+
+# Email
+validate-email>=1.3
+email-validator>=2.1.0
+
+# Phone
+phonenumberslite>=8.13.0
+
+# IP & Location
+ipwhois>=1.2.0
+geoip2>=4.7.0
+geocoder>=1.38.1
+
+# Hash Cracking
+hashid>=3.1.4
+hashcat-utils>=1.9
+
+# PDF
+PyPDF2>=3.0.0
+reportlab>=4.0.0
+
+# QR Code
+qrcode>=7.4.2
+pyzbar>=0.1.9
+
+# Additional
+fake-useragent>=1.4.0
+stem>=1.8.2
+pysocks>=1.7.1
+aiohttp>=3.9.0
+asyncio>=3.4.3
